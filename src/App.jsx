@@ -8,7 +8,7 @@ let release = `react-sentry-github@1.0.0`;
 let error_message = `Houston we have a 2nd Error`;
 
 Sentry.init({
-  dsn: "https://08f1f241b9b94950806db3856f284080@o1347124.ingest.sentry.io/4503904517685248",
+  dsn: "https://838849ee089d49079366c7bacb0abef5@o1347124.ingest.sentry.io/4503904704724992",
   integrations: [new BrowserTracing()],
   release: release,
   tracesSampleRate: 1.0,
