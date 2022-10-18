@@ -4,8 +4,8 @@ import * as Sentry from "@sentry/react";
 import { BrowserTracing } from "@sentry/tracing";
 import "./App.css";
 
-let release = `react-sentry-github@1.0.0`;
-let error_message = `Houston we have 5th Error`;
+let release = `react-sentry-github@v0.2.0`;
+let error_message = `Houston we have 4th Error`;
 
 Sentry.init({
   dsn: "https://06347e0721214c35b4fc89c347944c93@o1347124.ingest.sentry.io/4503926500491264",
@@ -30,7 +30,7 @@ function App() {
 
   Sentry.setContext("customer", {
     name: "Dirk Nielsen",
-    address: "125 Main St",
+    address: "126 Main St",
     zip: "12121",
     nonsensitive: {
       favorite_color: "Yellow",
